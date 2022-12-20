@@ -80,7 +80,7 @@ function draw() {
   background(0);
 
   if(mouseIsPressed){
-    let wind = createVector(0.1,0);
+    let wind = createVector(1,1);
    attractor.applyForce(wind);
     }
 
