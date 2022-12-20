@@ -5,7 +5,7 @@
 class Mover4 {
   constructor(mass, x, y) {
     this.position = createVector(x, y);
-    this.velocity = createVector(1, 0);
+    this.velocity = createVector(1, 1);
     this.acceleration = createVector(0, 0);
     this.mass = mass;
   }
